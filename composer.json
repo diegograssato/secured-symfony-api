@@ -13,6 +13,7 @@
         "symfony/intl": "*",
         "symfony/security": "*",
         "symfony/security-bundle": "*",
+        "symfony/twig-bundle": "*",
         "symfony/yaml": "*"
     },
     "require-dev": {

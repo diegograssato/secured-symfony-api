@@ -8,13 +8,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/default", name="default")
+     * @Route("/", name="homepage")
      */
     public function index()
     {
-        return $this->json([
-            'message' => 'Welcome to your new controller!',
-            'path' => 'src/Controller/DefaultController.php',
+        return $this->render('default/index.html.twig', [
+            'controller_name' => 'DefaultController',
+            'AUTH0_DOMAIN' => getenv('AUTH0_DOMAIN'),
+            'AUTH0_CLIENT_ID' => getenv('AUTH0_CLIENT_ID')
         ]);
     }
 }
