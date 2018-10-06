@@ -11,7 +11,7 @@ export default class Home extends Component {
                 <NavBar />
                 <Switch>
                     <Route path={"/resources"} component={Resources} />
-                    <Route exact path={'/callback'} component={Callback} />
+                    <Route exact path={"/callback"} component={Callback} />
                     {/*<Route path={"/"} component={ReviewForm} />*/}
                 </Switch>
                 {/*<Resources />*/}
