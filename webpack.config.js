@@ -12,7 +12,8 @@ Encore
     .enableVersioning(Encore.isProduction())
 
     .configureBabel(function (babelConfig) {
-        babelConfig.plugins = ["transform-class-properties", "transform-decorators-legacy"]
+        babelConfig.plugins = ["transform-class-properties",
+            "transform-decorators-legacy", 'transform-async-to-generator']
     })
     .enableReactPreset()
 ;

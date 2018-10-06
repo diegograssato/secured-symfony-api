@@ -1,5 +1,6 @@
 {
     "devDependencies": {
+        "@babel/plugin-transform-async-to-generator": "^7.1.0",
         "@symfony/webpack-encore": "^0.20.0",
         "babel-preset-react": "^6.24.1",
         "prop-types": "^15.6.2",
