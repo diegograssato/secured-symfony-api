@@ -13,7 +13,7 @@ Encore
 
     .configureBabel(function (babelConfig) {
         babelConfig.plugins = ["transform-class-properties",
-            "transform-decorators-legacy", 'transform-async-to-generator']
+            "transform-decorators-legacy", "transform-runtime"]
     })
     .enableReactPreset()
 ;
