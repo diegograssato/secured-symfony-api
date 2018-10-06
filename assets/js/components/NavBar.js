@@ -32,6 +32,10 @@ const NavBar = (props) => {
                     <li className="nav-item">
                         <Link className={"nav-link"} to={"/resources"}> Resources </Link>
                     </li>
+
+                    <li className="nav-item">
+                        <Link clasName={"nav-link"} to={"/new-resources"}> Fetch New Resources </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
